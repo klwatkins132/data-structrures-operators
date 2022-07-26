@@ -1,7 +1,7 @@
 # data-structrures-operators
 
-Various JavaScript Data Structures, Modern Operators and Strings.
-Includes:
+Working with various JavaScript Data Structures, Modern Operators and Strings. <br />
+With this project I expand on introductury concepts in the following topics:
 
 - Destructuring Arrays
 - Destructuring Objects
@@ -12,4 +12,6 @@ Includes:
 - Optional Chaining
 - Looping
 - Sets, Maps
-- Strings
+- Strings <br />
+
+Topics are commented out as the next topic is expanded upon, ending with strings.
