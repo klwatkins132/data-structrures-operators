@@ -13,5 +13,3 @@ With this project I expand on introductury concepts in the following topics:
 - Looping
 - Sets, Maps
 - Strings <br />
-
-Topics are commented out as the next topic is expanded upon, ending with strings.
