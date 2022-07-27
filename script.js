@@ -25,6 +25,7 @@ for (const flight of flights.split('+')) {
 
 ///////////////////////////////////////
 // Working With Strings Intro
+
 /*
 // Split and Join
 console.log('a+very+nice+string'.split('+'));
@@ -74,6 +75,7 @@ const planesInLine = function (n) {
 planesInLine(5);
 planesInLine(3);
 planesInLine(12);
+
 
 
 ///////////////////////////////////////
@@ -142,6 +144,7 @@ checkBaggage('Got some snacks and a gun for protection');
 
 ///////////////////////////////////////
 // Maps: Iteration
+
 /*
 const question = new Map([
     ['question', 'What is the best programming language in the world?'],
@@ -195,8 +198,9 @@ console.log([...question.values()]);
 
 
 
-// ///////////////////////////////////////
-// // Maps: Fundamentals
+/////////////////////////////////////////
+//// Maps: Fundamentals
+
 const rest = new Map();
 rest.set('name', 'Classico Italiano');
 rest.set(1, 'Firenze, Italy');
@@ -232,6 +236,7 @@ console.log(rest.get(arr));
 
 ///////////////////////////////////////
 // Sets
+
 const ordersSet = new Set([
     'Pasta',
     'Pizza',
@@ -274,6 +279,7 @@ console.log(new Set('kelsywatkins').size); // prints 10 -- There are 10 unique v
 
 ///////////////////////////////////////
 // Looping
+
 /*
 1. Loop over the game.scored array and print each player name to the console, along with the goal number (Example: "Goal 1: Lewandowski")
 2. Use a loop to calculate the average odd and log it to the console
@@ -363,6 +369,7 @@ for (const player of game.scored) {
 
 ///////////////////////////////////////
 // Looping Objects: Object Keys, Values, and Entries
+
 const weekdays = ['mon', 'tue', 'wed', 'thur', 'fri', 'sat', 'sun'];
 const openingHours = {
     [weekdays[3]]: {
@@ -405,6 +412,7 @@ for (const [day, { open, close }] of entries) {
 
 ///////////////////////////////////////
 // Optional Chaining
+
 /*
 const weekdays = ['mon', 'tue', 'wed', 'thur', 'fri', 'sat', 'sun'];
 const openingHours = {
@@ -483,6 +491,7 @@ else console.log('user array empty');
 
 ///////////////////////////////////////
 // The Nullish Coalescing Operator
+
 /*
 const restaurant = {
     Rname: 'Classico Italiano',
@@ -613,6 +622,7 @@ restaurant.orderPizza && restaurant.orderPizza('mushrooms', 'spinach');
 ///////////////////////////////////////
 // Rest Pattern and Parameters
 // looks like spread operator but does the exact opposite -- pack elements into an array
+
 /*
 // 1) Destructuring
 
@@ -695,6 +705,7 @@ restaurant.orderPizza('mushrooms'); // produces an empty array
 
 ///////////////////////////////////////
 // The Spread Operator (...)
+
 /*
 const arr = [7, 8, 9];
 const badNewArr = [1, 2, arr[0], arr[1], arr[2]];
@@ -785,6 +796,7 @@ console.log(restaurant.Rname);
 
 ///////////////////////////////////////
 // Destructuring Objects
+
 /*
 const restaurant = {
     Rname: 'Classico Italiano',
@@ -860,6 +872,7 @@ console.log(o, c);
 
 ///////////////////////////////////////
 // Destructuring Arrays
+
 /*
 const arr = [2, 3, 4];
 const a = arr[0];
