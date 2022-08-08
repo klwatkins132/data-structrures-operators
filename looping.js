@@ -131,3 +131,30 @@ const entries = Object.entries(openingHrs);
 for (const [day, { open, close }] of entries) {
     console.log(`On ${day} we open at ${open} and close at ${close}`);
 }
+
+
+
+///////////////////////////////////////
+// Looping Arrays: forEach
+
+console.log('*****LOOPING PT3*****');
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+console.log('*****for of*****'); // use this if you need to break out of an array
+for (const [i, movement] of movements.entries()) {
+    if (movement > 0) {
+        console.log(`Movement ${i + 1}: You deposited ${movement}`)
+    } else {
+        console.log(`Movement ${i + 1}: You withdrew ${Math.abs(movement)}`)
+    }
+}
+
+// another way to write above code block
+console.log('*****forEach*****'); // cannot break out of a forEach loop
+movements.forEach(function (movement, index, array) {
+    if (movement > 0) {
+        console.log(`Movement ${index + 1}: You deposited ${movement}`)
+    } else {
+        console.log(`Movement ${index + 1}: You withdrew ${Math.abs(movement)}`)
+    }
+});
